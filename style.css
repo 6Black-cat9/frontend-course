@@ -97,3 +97,9 @@ button {
   border-radius: 4px;
   margin-top: 5px;
 }
+.password-container,
+.input-container {
+  margin-bottom: 2px;
+  border-radius: 4px;
+  margin-top: 5px;
+}

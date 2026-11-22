@@ -21,10 +21,15 @@
     </div>
     <form class="auth-content" id="auth-form">
       <label for="login">Логин:</label>
-      <input type="text" id="login" name="login" />
-      <label for="password">Пароль:</label>
-      <input type="password" id="password" name="password" />
-      <button type="button" id="password-button">Показать пароль</button>
+      <div class="input-container">
+        <input type="text" id="login" name="login" />
+      </div>
+      <div class="password-container">
+        <input type="password" id="password" name="password" />
+        <button type="button" id="password-button">
+          <img src="./images/password-button.png" height=12" alt="" />
+        </button>
+      </div>
       <button type="submit">Войти</button>
       <p id="auth-message" aria-live="polite"></p>
     </form>
