@@ -2,6 +2,7 @@ const form = document.querySelector("#auth-form");
 const loginInput = document.querySelector("#login");
 const passwordInput = document.querySelector("#password");
 const message = document.querySelector("#auth-message");
+const passwordButton = document.querySelector("#password-button");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -20,4 +21,11 @@ form.addEventListener("submit", (event) => {
   }
 
   message.textContent = "Неверный логин или пароль.";
+});
+passwordButton.addEventListener("click", () => {
+  if (passwordInput.type === "password") {
+    passwordInput.type = "text";
+  } else {
+    passwordInput.type = "password";
+  }
 });
