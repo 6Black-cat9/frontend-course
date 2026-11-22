@@ -19,6 +19,9 @@ body {
 body.index {
   background-image: url("images/background.gif");
 }
+body.auth {
+  background-image: url("images/background.gif");
+}
 body.naruto {
   background-image: url("images/background.gif");
 }
@@ -65,4 +68,23 @@ td {
   margin-top: auto;
   padding: 16px;
   text-align: center;
+}
+.auth-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(255, 136, 0);
+  margin-top: 50px;
+  padding: 20px;
+  max-width: 400px;
+  max-height: 150px;
+  margin-bottom: 50px;
+  height: 100vh;
+}
+#auth-message {
+  color: rgb(255, 1, 1);
+  font-size: 18px;
+  margin-top: 10px;
 }
