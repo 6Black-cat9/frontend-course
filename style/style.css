@@ -17,19 +17,19 @@ body {
 }
 
 body.index {
-  background-image: url("images/background.gif");
+  background-image: url("../images/background.gif");
 }
 body.auth {
-  background-image: url("images/background.gif");
+  background-image: url("../images/background.gif");
 }
 body.naruto {
-  background-image: url("images/background.gif");
+  background-image: url("../images/background.gif");
 }
 body.sasuke {
-  background-image: url("images/background.gif");
+  background-image: url("../images/background.gif");
 }
 body.sakura {
-  background-image: url("images/background.gif");
+  background-image: url("../images/background.gif");
 }
 .header nav {
   display: flex;
