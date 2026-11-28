@@ -16,7 +16,7 @@ form.addEventListener("submit", (event) => {
   }
 
   if (login === "admin" && password === "24526") {
-    window.location.href = "./frontend-course/index.html";
+    window.location.href = "./index.html";
     return;
   }
 
